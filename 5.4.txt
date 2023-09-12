@@ -1,0 +1,8 @@
+n = int(input("Masukkan banyak data: "))
+total = 0
+for i in range(n):
+    data = int(input(f"Masukkan data ke-{i+1}: "))
+    total += data
+rata_rata = total / n
+print("Rata-rata dari", n+1,"data adalah", rata_rata,)
+
